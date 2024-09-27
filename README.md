@@ -15,5 +15,9 @@ Os desafios/exercícios listados a seguir foram resolvidos e posteriormente corr
 
 ![classes_desafio3](Desafio3-Sistema_bancario_POO/Trilha_Python-desafio.png)
 
-4 - No seguinte link consta as atividades relacionadas a [Processamento digital de imagens](https://github.com/Moskbr/image-processing-package.git) com Python, que também exercita a criação de pacotes no [Pypi](https://pypi.org/).
+4 - No seguinte link consta as atividades relacionadas a [Processamento digital de imagens](https://github.com/Moskbr/image-processing-package.git) com Python, que também exercita a criação de pacotes no [Pypi](https://pypi.org/). A fim de registro, os procedimentos para criação de pacotes são:
+
+- Diretório raíz com estrutura pré-definida para pacotes, com arquivos `README.md`, `requirements.txt` e `setup.py`.
+- Usar `Twine` para criação do pacote com o comando: `python setup.py sdist bdist_wheel`
+- 
 
